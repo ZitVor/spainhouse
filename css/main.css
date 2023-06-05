@@ -213,7 +213,7 @@ body {
 
 .spainhouse {
   height: 657px;
-  background-image: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), url("/img/header/header-bg.png");
+  background-image: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), url("./../../img/header/header-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -867,6 +867,10 @@ body {
 }
 
 .aside-menu {
+  display: none;
+}
+
+.aside-menu__hidden {
   display: block;
   position: fixed;
   background-color: white;
@@ -874,16 +878,12 @@ body {
   right: 0;
   top: 0;
   padding-left: 43px;
-  z-index: 11;
+  z-index: 1;
 }
 @media screen and (max-width: 1399px) {
-  .aside-menu {
+  .aside-menu__hidden {
     padding-left: 13px;
   }
-}
-
-.aside-menu__hidden {
-  display: none;
 }
 
 .cross {
