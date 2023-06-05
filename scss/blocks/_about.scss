@@ -1,0 +1,121 @@
+.about {
+max-height:540px ;
+    @include mediaTablet{
+        max-height: 800px;
+    }
+}
+.about__content{
+    display: flex;
+    padding-top:35px;
+    @include mediaTablet{
+        flex-direction: column;
+    }
+}
+.about__info {
+    padding-top: 8px;
+}
+.about__title {
+    @include mediaTablet{
+        text-align: center;
+    }
+}
+.about__text {
+    padding-top: 32px;
+    font-size: 16px;
+    max-width: 574px;
+    font-weight: 400;
+line-height: 32px;
+    font-family: $font-main;
+    @include mediaTablet{
+        padding-top: 27px;
+        text-align: center;
+        margin: 0 auto;
+        max-width: none;
+        min-width: 316px;
+    }
+}
+.text {
+}
+.about__subtext {
+    padding-top: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: $gray;
+    @include mediaTablet{
+        padding-top: 29px;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 29px;
+    }
+}
+
+.about__img {
+    padding-top: 29px ;
+    padding-left: 226px;
+   @include mediaTablet{
+   margin: 0 auto;
+   padding-left: 0;
+   display: none;
+   }
+}
+
+.about__img-img{
+
+    z-index: 10;
+    top:-410px;
+    left:90px ;
+    position: relative;
+    max-height: 449px;
+    @include mediaTablet{
+        max-width: 367px;
+
+    }
+
+    @include mediaExtraSmall{
+        display: none;
+    }
+}
+.about__border-box{
+    border: 1px solid $gray;
+    width: 492px;
+    height: 387px; 
+    z-index: 5;
+    @include mediaExtraSmall{
+        display: none;
+    }
+}
+
+.about__hidden {
+    display: none;
+
+    @include mediaSuperSmall{
+        display: block;
+        height: 306px;
+    }
+}
+.about__border {
+    width: 100%;
+    height: 1px;
+    background-color: $gray;
+}
+.about__hidden-img {
+
+    
+    @include mediaExtraSmall{
+       margin: 22px ;
+       height: 262px;
+       background-image: url(../../img/about/mobile.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+  }
+
+.about__hidden-img-img{
+    @include mediaTablet{  
+        
+        max-height: 246px;
+        background: url("./../../img/about/mobile.png") no-repeat   center center  ;
+        object-fit: cover;
+    }
+}

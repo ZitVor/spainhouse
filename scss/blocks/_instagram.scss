@@ -1,0 +1,46 @@
+.instagram{
+}
+.instagram__img {
+    padding-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 17px;
+}
+.instagram__title {
+    align-items: center;
+    text-align: center;
+}
+.instagram__account {
+    font-family: $font-main;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: $black;
+     @include mediaTablet{
+        font-size: 16px;
+     }
+}
+.instagram__grid {
+    margin-top: 25px;
+    margin-bottom: 73px;
+    align-items: center ;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 52px;
+    justify-content: space-between;
+    @include mediaTablet{
+        gap: 14px;
+    }
+}
+.instagram__grid-item {
+}
+
+.instagram__btn{
+    margin-bottom: 60px;
+}
+

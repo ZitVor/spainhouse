@@ -1,0 +1,82 @@
+.spainhouse {
+    height: 657px;
+    
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), url('/img/header/header-bg.png') ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include  mediaTablet{
+        height: 813px;
+    }
+}
+.spainhouse__title {
+    padding-top: 169px;
+    font-family: $font-accent;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 128px;
+    color: $white;
+    align-items: center;
+    text-align: center;
+    @include mediaTablet{
+        padding-top: 267px;
+        font-size: 35px;
+        line-height: 47px;
+    }
+}
+.spainhouse__subtitle {
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: $white;
+    text-align: center;
+    align-items: center;
+    padding-top: 4px;
+    margin: 0 auto;
+    width: 512px;
+
+    @include mediaTablet{
+        padding-top: 9px;
+        font-size: 13px;
+        line-height: 30px;
+        max-width: 310px;
+    margin-bottom: 321px;
+    }
+}
+
+.spain__header {
+    display: none;
+     @include mediaTablet{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        color: $white;
+        padding-top: 32px;
+     }
+    
+}
+
+.spain__polygon{
+    display: none;
+    @include mediaTablet{
+        
+    margin: 0 auto;
+    display: flex;
+    }
+}
+.mobile-logo {
+}
+.header__nav-btn {
+}
+.mobile__nav-btn {
+
+}
+.bar1 {
+}
+.bar2 {
+}
+.bar3 {
+}

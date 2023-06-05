@@ -1,0 +1,23 @@
+.footer {
+    background-color: $gray;
+    align-items: center;
+    text-align: center;
+}
+.footer__logo {
+    margin-top: 32px;
+    margin-bottom: 18px;
+}
+.social__networks {
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.prava {
+    margin-top: 23px;
+    padding-bottom: 32px;
+    color: $white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
