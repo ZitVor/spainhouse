@@ -959,6 +959,8 @@ body {
   .list-item {
     padding-left: 7px;
     padding-right: 23px;
+    font-size: 14px;
+    line-height: 19px;
   }
 }
 

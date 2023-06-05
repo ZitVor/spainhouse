@@ -76,6 +76,7 @@ padding-top: 25px;
 
 .nav-list {
     border-top: 1px solid $gray;
+    
 }
 
 .list-item {
@@ -93,6 +94,8 @@ padding-top: 25px;
     @include mediaTablet {
         padding-left: 7px;
         padding-right: 23px;
+        font-size: 14px;
+        line-height: 19px;
     }
 }
 
