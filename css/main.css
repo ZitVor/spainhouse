@@ -878,7 +878,7 @@ body {
   right: 0;
   top: 0;
   padding-left: 43px;
-  z-index: 1;
+  z-index: 11;
 }
 @media screen and (max-width: 1399px) {
   .aside-menu__hidden {
