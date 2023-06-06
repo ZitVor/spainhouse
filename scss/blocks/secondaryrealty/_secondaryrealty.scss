@@ -1,7 +1,7 @@
-.spainhouse {
+.secondaryrealty {
     height: 657px;
 
-    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), url('./../../img/header/header-bg.png');
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), url('./../../../img/secondaryrealty/background.png');
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,15 +73,3 @@
         display: flex;
     }
 }
-
-.mobile-logo {}
-
-.header__nav-btn {}
-
-.mobile__nav-btn {}
-
-.bar1 {}
-
-.bar2 {}
-
-.bar3 {}

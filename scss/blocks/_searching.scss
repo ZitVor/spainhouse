@@ -1,0 +1,15 @@
+.searching{
+    padding-top: 24px;
+    padding-bottom: 112px;
+}
+.searching__articul{
+    max-width: 242px;
+    border: 1px solid $gray;
+    padding: 13px 19px 13px 57px;
+    font-size: 18px;
+    color: $gray;
+    background-color: $white;
+    background-image: url(./../../img/searching/searching-magnifying-glass\ 1.svg);
+    background-position: 19px 13px;
+    background-repeat: no-repeat;
+}
