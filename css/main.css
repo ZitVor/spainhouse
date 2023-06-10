@@ -218,7 +218,7 @@ body {
 
 .spainhouse {
   height: 657px;
-  background-image: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), url("./../../img/header/header-bg.png");
+  background-image: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), url("../img/header/header-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -530,7 +530,7 @@ body {
 
 .first-card .card__slider {
   height: 804px;
-  background: url("./../../img/recommended/1.png") no-repeat center center;
+  background: url("../img/recommended/1.png") no-repeat center center;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -542,7 +542,7 @@ body {
 
 .second-card .card__slider {
   height: 340px;
-  background: url("./../../img/recommended/2.png") no-repeat center center;
+  background: url("../img/recommended/2.png") no-repeat center center;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -554,13 +554,13 @@ body {
 
 .third-card .card__slider {
   height: 246px;
-  background: url("./../../img/recommended/3.png") no-repeat center center;
+  background: url("../img/recommended/3.png") no-repeat center center;
   background-size: cover;
 }
 
 .fourth-card .card__slider {
   height: 246px;
-  background: url("./../../img/recommended/3.png") no-repeat center center;
+  background: url("../img/recommended/4.png") no-repeat center center;
   background-size: cover;
 }
 
@@ -764,7 +764,7 @@ body {
   align-items: center;
   top: -425px;
   left: 80px;
-  background-image: url(./../../img/katrin/1.png);
+  background-image: url(../img/katrin/1.png);
   height: 502px;
   width: 370px;
   background-repeat: no-repeat;
